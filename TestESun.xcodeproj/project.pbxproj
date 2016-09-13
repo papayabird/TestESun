@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B0F5A71D87AC10006BC29E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F5A61D87AC10006BC29E /* main.m */; };
+		D0B0F5AA1D87AC10006BC29E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F5A91D87AC10006BC29E /* AppDelegate.m */; };
+		D0B0F5B21D87AC10006BC29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F5B11D87AC10006BC29E /* Assets.xcassets */; };
+		D0B0F5B51D87AC10006BC29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F5B31D87AC10006BC29E /* LaunchScreen.storyboard */; };
+		D0B0F5C91D87ACB0006BC29E /* VPTabbarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F5C61D87ACB0006BC29E /* VPTabbarViewController.xib */; };
+		D0B0F5CA1D87ACB0006BC29E /* VPTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F5C81D87ACB0006BC29E /* VPTabbarViewController.m */; };
+		D0B0F5E81D87C545006BC29E /* ESLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F5E61D87C545006BC29E /* ESLeftMenuViewController.m */; };
+		D0B0F5E91D87C545006BC29E /* ESLeftMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F5E71D87C545006BC29E /* ESLeftMenuViewController.xib */; };
+		D0B0F5ED1D87C7EC006BC29E /* JGContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F5EA1D87C7EC006BC29E /* JGContainerViewController.m */; };
+		D0B0F5EE1D87C7EC006BC29E /* JGContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F5EC1D87C7EC006BC29E /* JGContainerViewController.xib */; };
+		D0B0F6001D87DCFD006BC29E /* ESLeftMenuOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F5FB1D87DCFD006BC29E /* ESLeftMenuOneViewController.m */; };
+		D0B0F6011D87DCFD006BC29E /* ESLeftMenuOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F5FC1D87DCFD006BC29E /* ESLeftMenuOneViewController.xib */; };
+		D0B0F6021D87DCFD006BC29E /* ESLeftMenuTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F5FE1D87DCFD006BC29E /* ESLeftMenuTwoViewController.m */; };
+		D0B0F6031D87DCFD006BC29E /* ESLeftMenuTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F5FF1D87DCFD006BC29E /* ESLeftMenuTwoViewController.xib */; };
+		D0B0F6111D87DD35006BC29E /* ESCardManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6061D87DD35006BC29E /* ESCardManagerViewController.m */; };
+		D0B0F6121D87DD35006BC29E /* ESCardManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F6071D87DD35006BC29E /* ESCardManagerViewController.xib */; };
+		D0B0F6131D87DD35006BC29E /* ESCardPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F6091D87DD35006BC29E /* ESCardPayViewController.m */; };
+		D0B0F6141D87DD35006BC29E /* ESCardPayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F60A1D87DD35006BC29E /* ESCardPayViewController.xib */; };
+		D0B0F6151D87DD35006BC29E /* ESOtherCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F60C1D87DD35006BC29E /* ESOtherCardViewController.m */; };
+		D0B0F6161D87DD35006BC29E /* ESOtherCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F60D1D87DD35006BC29E /* ESOtherCardViewController.xib */; };
+		D0B0F6171D87DD35006BC29E /* ESStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F60F1D87DD35006BC29E /* ESStoreViewController.m */; };
+		D0B0F6181D87DD35006BC29E /* ESStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F6101D87DD35006BC29E /* ESStoreViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0B0F5A21D87AC10006BC29E /* TestESun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestESun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B0F5A61D87AC10006BC29E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0B0F5A81D87AC10006BC29E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0B0F5A91D87AC10006BC29E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0B0F5B11D87AC10006BC29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B0F5B41D87AC10006BC29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B0F5B61D87AC10006BC29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B0F5C61D87ACB0006BC29E /* VPTabbarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPTabbarViewController.xib; sourceTree = "<group>"; };
+		D0B0F5C71D87ACB0006BC29E /* VPTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPTabbarViewController.h; sourceTree = "<group>"; };
+		D0B0F5C81D87ACB0006BC29E /* VPTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPTabbarViewController.m; sourceTree = "<group>"; };
+		D0B0F5E51D87C545006BC29E /* ESLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESLeftMenuViewController.h; sourceTree = "<group>"; };
+		D0B0F5E61D87C545006BC29E /* ESLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESLeftMenuViewController.m; sourceTree = "<group>"; };
+		D0B0F5E71D87C545006BC29E /* ESLeftMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESLeftMenuViewController.xib; sourceTree = "<group>"; };
+		D0B0F5EA1D87C7EC006BC29E /* JGContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGContainerViewController.m; sourceTree = "<group>"; };
+		D0B0F5EB1D87C7EC006BC29E /* JGContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGContainerViewController.h; sourceTree = "<group>"; };
+		D0B0F5EC1D87C7EC006BC29E /* JGContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JGContainerViewController.xib; sourceTree = "<group>"; };
+		D0B0F5FA1D87DCFD006BC29E /* ESLeftMenuOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESLeftMenuOneViewController.h; sourceTree = "<group>"; };
+		D0B0F5FB1D87DCFD006BC29E /* ESLeftMenuOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESLeftMenuOneViewController.m; sourceTree = "<group>"; };
+		D0B0F5FC1D87DCFD006BC29E /* ESLeftMenuOneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESLeftMenuOneViewController.xib; sourceTree = "<group>"; };
+		D0B0F5FD1D87DCFD006BC29E /* ESLeftMenuTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESLeftMenuTwoViewController.h; sourceTree = "<group>"; };
+		D0B0F5FE1D87DCFD006BC29E /* ESLeftMenuTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESLeftMenuTwoViewController.m; sourceTree = "<group>"; };
+		D0B0F5FF1D87DCFD006BC29E /* ESLeftMenuTwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESLeftMenuTwoViewController.xib; sourceTree = "<group>"; };
+		D0B0F6051D87DD35006BC29E /* ESCardManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCardManagerViewController.h; sourceTree = "<group>"; };
+		D0B0F6061D87DD35006BC29E /* ESCardManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCardManagerViewController.m; sourceTree = "<group>"; };
+		D0B0F6071D87DD35006BC29E /* ESCardManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESCardManagerViewController.xib; sourceTree = "<group>"; };
+		D0B0F6081D87DD35006BC29E /* ESCardPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCardPayViewController.h; sourceTree = "<group>"; };
+		D0B0F6091D87DD35006BC29E /* ESCardPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCardPayViewController.m; sourceTree = "<group>"; };
+		D0B0F60A1D87DD35006BC29E /* ESCardPayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESCardPayViewController.xib; sourceTree = "<group>"; };
+		D0B0F60B1D87DD35006BC29E /* ESOtherCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESOtherCardViewController.h; sourceTree = "<group>"; };
+		D0B0F60C1D87DD35006BC29E /* ESOtherCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESOtherCardViewController.m; sourceTree = "<group>"; };
+		D0B0F60D1D87DD35006BC29E /* ESOtherCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESOtherCardViewController.xib; sourceTree = "<group>"; };
+		D0B0F60E1D87DD35006BC29E /* ESStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESStoreViewController.h; sourceTree = "<group>"; };
+		D0B0F60F1D87DD35006BC29E /* ESStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESStoreViewController.m; sourceTree = "<group>"; };
+		D0B0F6101D87DD35006BC29E /* ESStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESStoreViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B0F59F1D87AC10006BC29E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B0F5991D87AC10006BC29E = {
+			isa = PBXGroup;
+			children = (
+				D0B0F5A41D87AC10006BC29E /* TestESun */,
+				D0B0F5A31D87AC10006BC29E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B0F5A31D87AC10006BC29E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0F5A21D87AC10006BC29E /* TestESun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B0F5A41D87AC10006BC29E /* TestESun */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0F5A81D87AC10006BC29E /* AppDelegate.h */,
+				D0B0F5A91D87AC10006BC29E /* AppDelegate.m */,
+				D0B0F5EB1D87C7EC006BC29E /* JGContainerViewController.h */,
+				D0B0F5EA1D87C7EC006BC29E /* JGContainerViewController.m */,
+				D0B0F5EC1D87C7EC006BC29E /* JGContainerViewController.xib */,
+				D0B0F5E51D87C545006BC29E /* ESLeftMenuViewController.h */,
+				D0B0F5E61D87C545006BC29E /* ESLeftMenuViewController.m */,
+				D0B0F5E71D87C545006BC29E /* ESLeftMenuViewController.xib */,
+				D0B0F5C71D87ACB0006BC29E /* VPTabbarViewController.h */,
+				D0B0F5C81D87ACB0006BC29E /* VPTabbarViewController.m */,
+				D0B0F5C61D87ACB0006BC29E /* VPTabbarViewController.xib */,
+				D0B0F5F91D87DCFD006BC29E /* LeftMenuVC */,
+				D0B0F6041D87DD35006BC29E /* TabbarVC */,
+				D0B0F5B11D87AC10006BC29E /* Assets.xcassets */,
+				D0B0F5B31D87AC10006BC29E /* LaunchScreen.storyboard */,
+				D0B0F5B61D87AC10006BC29E /* Info.plist */,
+				D0B0F5A51D87AC10006BC29E /* Supporting Files */,
+			);
+			path = TestESun;
+			sourceTree = "<group>";
+		};
+		D0B0F5A51D87AC10006BC29E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0F5A61D87AC10006BC29E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0B0F5F91D87DCFD006BC29E /* LeftMenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0F5FA1D87DCFD006BC29E /* ESLeftMenuOneViewController.h */,
+				D0B0F5FB1D87DCFD006BC29E /* ESLeftMenuOneViewController.m */,
+				D0B0F5FC1D87DCFD006BC29E /* ESLeftMenuOneViewController.xib */,
+				D0B0F5FD1D87DCFD006BC29E /* ESLeftMenuTwoViewController.h */,
+				D0B0F5FE1D87DCFD006BC29E /* ESLeftMenuTwoViewController.m */,
+				D0B0F5FF1D87DCFD006BC29E /* ESLeftMenuTwoViewController.xib */,
+			);
+			path = LeftMenuVC;
+			sourceTree = "<group>";
+		};
+		D0B0F6041D87DD35006BC29E /* TabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				D0B0F6051D87DD35006BC29E /* ESCardManagerViewController.h */,
+				D0B0F6061D87DD35006BC29E /* ESCardManagerViewController.m */,
+				D0B0F6071D87DD35006BC29E /* ESCardManagerViewController.xib */,
+				D0B0F6081D87DD35006BC29E /* ESCardPayViewController.h */,
+				D0B0F6091D87DD35006BC29E /* ESCardPayViewController.m */,
+				D0B0F60A1D87DD35006BC29E /* ESCardPayViewController.xib */,
+				D0B0F60B1D87DD35006BC29E /* ESOtherCardViewController.h */,
+				D0B0F60C1D87DD35006BC29E /* ESOtherCardViewController.m */,
+				D0B0F60D1D87DD35006BC29E /* ESOtherCardViewController.xib */,
+				D0B0F60E1D87DD35006BC29E /* ESStoreViewController.h */,
+				D0B0F60F1D87DD35006BC29E /* ESStoreViewController.m */,
+				D0B0F6101D87DD35006BC29E /* ESStoreViewController.xib */,
+			);
+			path = TabbarVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B0F5A11D87AC10006BC29E /* TestESun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B0F5B91D87AC10006BC29E /* Build configuration list for PBXNativeTarget "TestESun" */;
+			buildPhases = (
+				D0B0F59E1D87AC10006BC29E /* Sources */,
+				D0B0F59F1D87AC10006BC29E /* Frameworks */,
+				D0B0F5A01D87AC10006BC29E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestESun;
+			productName = TestESun;
+			productReference = D0B0F5A21D87AC10006BC29E /* TestESun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B0F59A1D87AC10006BC29E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ES;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ES;
+				TargetAttributes = {
+					D0B0F5A11D87AC10006BC29E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D0B0F59D1D87AC10006BC29E /* Build configuration list for PBXProject "TestESun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B0F5991D87AC10006BC29E;
+			productRefGroup = D0B0F5A31D87AC10006BC29E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B0F5A11D87AC10006BC29E /* TestESun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B0F5A01D87AC10006BC29E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B0F5EE1D87C7EC006BC29E /* JGContainerViewController.xib in Resources */,
+				D0B0F5E91D87C545006BC29E /* ESLeftMenuViewController.xib in Resources */,
+				D0B0F6141D87DD35006BC29E /* ESCardPayViewController.xib in Resources */,
+				D0B0F5B51D87AC10006BC29E /* LaunchScreen.storyboard in Resources */,
+				D0B0F5B21D87AC10006BC29E /* Assets.xcassets in Resources */,
+				D0B0F6121D87DD35006BC29E /* ESCardManagerViewController.xib in Resources */,
+				D0B0F5C91D87ACB0006BC29E /* VPTabbarViewController.xib in Resources */,
+				D0B0F6181D87DD35006BC29E /* ESStoreViewController.xib in Resources */,
+				D0B0F6011D87DCFD006BC29E /* ESLeftMenuOneViewController.xib in Resources */,
+				D0B0F6031D87DCFD006BC29E /* ESLeftMenuTwoViewController.xib in Resources */,
+				D0B0F6161D87DD35006BC29E /* ESOtherCardViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B0F59E1D87AC10006BC29E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B0F5E81D87C545006BC29E /* ESLeftMenuViewController.m in Sources */,
+				D0B0F6001D87DCFD006BC29E /* ESLeftMenuOneViewController.m in Sources */,
+				D0B0F5ED1D87C7EC006BC29E /* JGContainerViewController.m in Sources */,
+				D0B0F6151D87DD35006BC29E /* ESOtherCardViewController.m in Sources */,
+				D0B0F6021D87DCFD006BC29E /* ESLeftMenuTwoViewController.m in Sources */,
+				D0B0F6111D87DD35006BC29E /* ESCardManagerViewController.m in Sources */,
+				D0B0F5CA1D87ACB0006BC29E /* VPTabbarViewController.m in Sources */,
+				D0B0F6171D87DD35006BC29E /* ESStoreViewController.m in Sources */,
+				D0B0F5AA1D87AC10006BC29E /* AppDelegate.m in Sources */,
+				D0B0F5A71D87AC10006BC29E /* main.m in Sources */,
+				D0B0F6131D87DD35006BC29E /* ESCardPayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0B0F5B31D87AC10006BC29E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B0F5B41D87AC10006BC29E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B0F5B71D87AC10006BC29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0B0F5B81D87AC10006BC29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B0F5BA1D87AC10006BC29E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = TestESun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ES.TestESun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0B0F5BB1D87AC10006BC29E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = TestESun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ES.TestESun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B0F59D1D87AC10006BC29E /* Build configuration list for PBXProject "TestESun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B0F5B71D87AC10006BC29E /* Debug */,
+				D0B0F5B81D87AC10006BC29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B0F5B91D87AC10006BC29E /* Build configuration list for PBXNativeTarget "TestESun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B0F5BA1D87AC10006BC29E /* Debug */,
+				D0B0F5BB1D87AC10006BC29E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B0F59A1D87AC10006BC29E /* Project object */;
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VPTabbarViewController">
+            <connections>
+                <outlet property="barContainer" destination="DoY-Mp-xR2" id="glg-yA-iIg"/>
+                <outlet property="exploreButton" destination="k46-0T-HhX" id="TKw-R7-gZS"/>
+                <outlet property="homeButton" destination="u8C-Y8-cub" id="srg-3p-657"/>
+                <outlet property="postButton" destination="1yc-xI-dqo" id="UbB-mH-WYN"/>
+                <outlet property="profileButton" destination="zqH-si-sIe" id="Msq-tg-JHt"/>
+                <outlet property="view" destination="c6F-Td-V0Q" id="o02-Ok-5cz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="c6F-Td-V0Q">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DoY-Mp-xR2">
+                    <rect key="frame" x="0.0" y="613" width="375" height="54"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8C-Y8-cub">
+                            <rect key="frame" x="0.0" y="0.0" width="94" height="54"/>
+                            <color key="backgroundColor" red="0.99231303770000001" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="home_p" backgroundImage="b_mainselect_p">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="itemAction:" destination="-1" eventType="touchUpInside" id="IaR-kJ-LHn"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k46-0T-HhX">
+                            <rect key="frame" x="94" y="0.0" width="94" height="54"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="explore_p" backgroundImage="b_mainselect_p">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="itemAction:" destination="-1" eventType="touchUpInside" id="JMY-1n-Dv8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yc-xI-dqo">
+                            <rect key="frame" x="188" y="0.0" width="94" height="54"/>
+                            <color key="backgroundColor" red="0.47257839600000001" green="0.74768069950000005" blue="0.80796197270000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="shot_p" backgroundImage="b_mainselect_p">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="itemAction:" destination="-1" eventType="touchUpInside" id="Fez-WQ-bhT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqH-si-sIe">
+                            <rect key="frame" x="282" y="0.0" width="94" height="54"/>
+                            <color key="backgroundColor" red="0.88235294119999996" green="0.15686274510000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <state key="normal">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="account_p" backgroundImage="b_mainselect_p">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="itemAction:" destination="-1" eventType="touchUpInside" id="GAk-jX-JTe"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="k46-0T-HhX" secondAttribute="bottom" id="0Wj-lr-1cZ"/>
+                        <constraint firstItem="zqH-si-sIe" firstAttribute="width" secondItem="1yc-xI-dqo" secondAttribute="width" id="1vY-2E-7vf"/>
+                        <constraint firstItem="zqH-si-sIe" firstAttribute="leading" secondItem="1yc-xI-dqo" secondAttribute="trailing" id="2vE-3J-7Mn"/>
+                        <constraint firstItem="u8C-Y8-cub" firstAttribute="leading" secondItem="DoY-Mp-xR2" secondAttribute="leading" id="39N-jk-wfj"/>
+                        <constraint firstAttribute="bottom" secondItem="zqH-si-sIe" secondAttribute="bottom" id="6Ry-2S-VwG"/>
+                        <constraint firstItem="k46-0T-HhX" firstAttribute="width" secondItem="1yc-xI-dqo" secondAttribute="width" id="BrO-zB-C20"/>
+                        <constraint firstItem="u8C-Y8-cub" firstAttribute="trailing" secondItem="k46-0T-HhX" secondAttribute="leading" id="LzN-eg-CWe"/>
+                        <constraint firstAttribute="bottom" secondItem="u8C-Y8-cub" secondAttribute="bottom" id="OkP-Un-BCi"/>
+                        <constraint firstAttribute="trailing" secondItem="zqH-si-sIe" secondAttribute="trailing" id="Oxn-VO-NHB"/>
+                        <constraint firstAttribute="trailing" secondItem="zqH-si-sIe" secondAttribute="trailing" constant="-1" id="XkQ-uD-dvD"/>
+                        <constraint firstItem="zqH-si-sIe" firstAttribute="top" secondItem="DoY-Mp-xR2" secondAttribute="top" id="hcH-Xy-nwM"/>
+                        <constraint firstItem="k46-0T-HhX" firstAttribute="top" secondItem="DoY-Mp-xR2" secondAttribute="top" id="hjc-nx-k56"/>
+                        <constraint firstAttribute="height" constant="54" id="kJb-Me-DbG"/>
+                        <constraint firstItem="k46-0T-HhX" firstAttribute="trailing" secondItem="1yc-xI-dqo" secondAttribute="leading" id="l75-Kc-gvf"/>
+                        <constraint firstAttribute="bottom" secondItem="1yc-xI-dqo" secondAttribute="bottom" id="lrS-fD-476"/>
+                        <constraint firstItem="u8C-Y8-cub" firstAttribute="width" secondItem="k46-0T-HhX" secondAttribute="width" id="mh2-vN-m1w"/>
+                        <constraint firstItem="1yc-xI-dqo" firstAttribute="top" secondItem="DoY-Mp-xR2" secondAttribute="top" id="rOW-BR-v6t"/>
+                        <constraint firstItem="u8C-Y8-cub" firstAttribute="top" secondItem="DoY-Mp-xR2" secondAttribute="top" id="vez-Kz-r3f"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Oxn-VO-NHB"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DoY-Mp-xR2" secondAttribute="trailing" id="D2f-NP-6Yw"/>
+                <constraint firstAttribute="bottom" secondItem="DoY-Mp-xR2" secondAttribute="bottom" id="L4n-wO-p48"/>
+                <constraint firstItem="DoY-Mp-xR2" firstAttribute="leading" secondItem="c6F-Td-V0Q" secondAttribute="leading" id="cq3-UT-TUQ"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="379.5" y="748.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="account_p" width="94" height="54"/>
+        <image name="b_mainselect_p" width="125" height="54"/>
+        <image name="explore_p" width="94" height="54"/>
+        <image name="home_p" width="94" height="54"/>
+        <image name="shot_p" width="94" height="54"/>
+    </resources>
+</document>
