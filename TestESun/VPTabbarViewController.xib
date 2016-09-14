@@ -30,7 +30,7 @@
                             <state key="normal">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="selected" image="home_p" backgroundImage="b_mainselect_p">
+                            <state key="selected">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -44,7 +44,7 @@
                             <state key="normal">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="selected" image="explore_p" backgroundImage="b_mainselect_p">
+                            <state key="selected">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -58,7 +58,7 @@
                             <state key="normal">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="selected" image="shot_p" backgroundImage="b_mainselect_p">
+                            <state key="selected">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -72,7 +72,7 @@
                             <state key="normal">
                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
-                            <state key="selected" image="account_p" backgroundImage="b_mainselect_p">
+                            <state key="selected">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
@@ -118,11 +118,4 @@
             <point key="canvasLocation" x="379.5" y="748.5"/>
         </view>
     </objects>
-    <resources>
-        <image name="account_p" width="94" height="54"/>
-        <image name="b_mainselect_p" width="125" height="54"/>
-        <image name="explore_p" width="94" height="54"/>
-        <image name="home_p" width="94" height="54"/>
-        <image name="shot_p" width="94" height="54"/>
-    </resources>
 </document>

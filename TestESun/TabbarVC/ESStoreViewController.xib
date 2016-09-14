@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ESStoreViewController">
             <connections>
+                <outlet property="barcodeImageView" destination="zlG-Dh-MWO" id="PlD-2b-vMj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -49,18 +50,27 @@
                         <action selector="leftMenuAction:" destination="-1" eventType="touchUpInside" id="6ep-pj-Sw7"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zlG-Dh-MWO">
+                    <rect key="frame" x="180" y="318" width="240" height="67"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="67" id="IHt-d7-PZ0"/>
+                        <constraint firstAttribute="width" constant="240" id="s8M-DM-mRT"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="m7u-4b-ERR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1mO-fF-XKK"/>
                 <constraint firstAttribute="trailing" secondItem="m7u-4b-ERR" secondAttribute="trailing" id="CeU-rR-yuL"/>
                 <constraint firstItem="5Ih-Pq-1hW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Csz-aJ-KFv"/>
+                <constraint firstItem="zlG-Dh-MWO" firstAttribute="top" secondItem="PLW-be-Zxx" secondAttribute="top" constant="29" id="ku5-No-Qbp"/>
                 <constraint firstItem="m7u-4b-ERR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lmd-pz-DB6"/>
                 <constraint firstItem="PLW-be-Zxx" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="sD7-gs-Ww5"/>
+                <constraint firstItem="zlG-Dh-MWO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="umO-aN-vRJ"/>
                 <constraint firstItem="5Ih-Pq-1hW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="x3G-Xt-fL2"/>
                 <constraint firstItem="PLW-be-Zxx" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xug-oM-plV"/>
             </constraints>
-            <point key="canvasLocation" x="500" y="267"/>
+            <point key="canvasLocation" x="355" y="324"/>
         </view>
     </objects>
 </document>

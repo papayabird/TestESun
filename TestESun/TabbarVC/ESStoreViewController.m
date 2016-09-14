@@ -8,8 +8,14 @@
 
 #import "ESStoreViewController.h"
 #import "JGContainerViewController.h"
-
+#import "ZXMultiFormatWriter.h"
+#import "ZXImage.h"
 @interface ESStoreViewController ()
+
+{
+    __weak IBOutlet UIImageView *barcodeImageView;
+    
+}
 
 @end
 
@@ -18,6 +24,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+
+    // 產生 Barcode
+    NSError *error = nil;
+    ZXMultiFormatWriter *writer = [ZXMultiFormatWriter writer];
+    ZXBitMatrix *result = [writer encode:@"A000109"
+                                  format:kBarcodeFormatCode128
+                                   width:barcodeImageView.frame.size.width
+                                  height:barcodeImageView.frame.size.height
+                                   error:&error];
+    if (result) {
+        CGImageRef image = [[ZXImage imageWithMatrix:result] cgimage];
+        [barcodeImageView setImage:[UIImage imageWithCGImage:image]];
+        // This CGImageRef image can be placed in a UIImage, NSImage, or written to a file.
+    } else {
+        NSString *errorMessage = [error localizedDescription];
+        NSLog(@"barcode err: %@", errorMessage);
+    }
 }
 
 - (IBAction)leftMenuAction:(id)sender
