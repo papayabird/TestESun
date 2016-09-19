@@ -1,2 +1,6 @@
 platform :ios, '8.0'
-pod 'ZXingObjC'
+
+
+target 'TestESun' do
+	pod 'ZXingObjC'
+end

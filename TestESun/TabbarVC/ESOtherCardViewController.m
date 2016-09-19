@@ -129,7 +129,8 @@
         // Get the metadata object.
         AVMetadataMachineReadableCodeObject *metadataObj = [metadataObjects objectAtIndex:0];
         
-//        NSLog(@"metadataObj:%@", metadataObj);
+        NSLog(@"metadataObj:%@", metadataObj);
+        
 
         if ([[metadataObj type] isEqualToString:AVMetadataObjectTypeCode93Code] || [[metadataObj type] isEqualToString:AVMetadataObjectTypeCode128Code] || [[metadataObj type] isEqualToString:AVMetadataObjectTypeQRCode]) {
             // If the found metadata is equal to the QR code metadata then update the status label's text,
