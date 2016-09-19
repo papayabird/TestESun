@@ -30,6 +30,10 @@
 		D0B0F6161D87DD35006BC29E /* ESOtherCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F60D1D87DD35006BC29E /* ESOtherCardViewController.xib */; };
 		D0B0F6171D87DD35006BC29E /* ESStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F60F1D87DD35006BC29E /* ESStoreViewController.m */; };
 		D0B0F6181D87DD35006BC29E /* ESStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F6101D87DD35006BC29E /* ESStoreViewController.xib */; };
+		DC2DCCE11D8F939F00544E5E /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2DCCE01D8F939F00544E5E /* card.png */; };
+		DC2DCCE41D8FAF1800544E5E /* ESCardSelectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCCE31D8FAF1800544E5E /* ESCardSelectViewCell.m */; };
+		DC2DCCE81D8FAFBB00544E5E /* ESPayWaySelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCCE71D8FAFBB00544E5E /* ESPayWaySelectCell.m */; };
+		DC2DCCEB1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCCEA1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +74,13 @@
 		D0B0F60E1D87DD35006BC29E /* ESStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESStoreViewController.h; sourceTree = "<group>"; };
 		D0B0F60F1D87DD35006BC29E /* ESStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESStoreViewController.m; sourceTree = "<group>"; };
 		D0B0F6101D87DD35006BC29E /* ESStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESStoreViewController.xib; sourceTree = "<group>"; };
+		DC2DCCE01D8F939F00544E5E /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = "<group>"; };
+		DC2DCCE21D8FAF1800544E5E /* ESCardSelectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCardSelectViewCell.h; sourceTree = "<group>"; };
+		DC2DCCE31D8FAF1800544E5E /* ESCardSelectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCardSelectViewCell.m; sourceTree = "<group>"; };
+		DC2DCCE61D8FAFBB00544E5E /* ESPayWaySelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPayWaySelectCell.h; sourceTree = "<group>"; };
+		DC2DCCE71D8FAFBB00544E5E /* ESPayWaySelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPayWaySelectCell.m; sourceTree = "<group>"; };
+		DC2DCCE91D8FAFDC00544E5E /* ESCardMemberBarCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCardMemberBarCodeCell.h; sourceTree = "<group>"; };
+		DC2DCCEA1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCardMemberBarCodeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +129,8 @@
 				D0B0F5C61D87ACB0006BC29E /* VPTabbarViewController.xib */,
 				D0B0F5F91D87DCFD006BC29E /* LeftMenuVC */,
 				D0B0F6041D87DD35006BC29E /* TabbarVC */,
+				DC2DCCE51D8FAF2C00544E5E /* View */,
+				DC2DCCDD1D8F935F00544E5E /* image */,
 				D0B0F5B11D87AC10006BC29E /* Assets.xcassets */,
 				D0B0F5B31D87AC10006BC29E /* LaunchScreen.storyboard */,
 				D0B0F5B61D87AC10006BC29E /* Info.plist */,
@@ -173,6 +186,27 @@
 				6C1257C1056F30A1E9A4ACB6 /* Pods-TestESun.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC2DCCDD1D8F935F00544E5E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				DC2DCCE01D8F939F00544E5E /* card.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		DC2DCCE51D8FAF2C00544E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC2DCCE21D8FAF1800544E5E /* ESCardSelectViewCell.h */,
+				DC2DCCE31D8FAF1800544E5E /* ESCardSelectViewCell.m */,
+				DC2DCCE61D8FAFBB00544E5E /* ESPayWaySelectCell.h */,
+				DC2DCCE71D8FAFBB00544E5E /* ESPayWaySelectCell.m */,
+				DC2DCCE91D8FAFDC00544E5E /* ESCardMemberBarCodeCell.h */,
+				DC2DCCEA1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		FD8AF330280E52DDF29BAA28 /* Frameworks */ = {
@@ -249,6 +283,7 @@
 				D0B0F6141D87DD35006BC29E /* ESCardPayViewController.xib in Resources */,
 				D0B0F5B51D87AC10006BC29E /* LaunchScreen.storyboard in Resources */,
 				D0B0F5B21D87AC10006BC29E /* Assets.xcassets in Resources */,
+				DC2DCCE11D8F939F00544E5E /* card.png in Resources */,
 				D0B0F6121D87DD35006BC29E /* ESCardManagerViewController.xib in Resources */,
 				D0B0F5C91D87ACB0006BC29E /* VPTabbarViewController.xib in Resources */,
 				D0B0F6181D87DD35006BC29E /* ESStoreViewController.xib in Resources */,
@@ -316,13 +351,16 @@
 				D0B0F5E81D87C545006BC29E /* ESLeftMenuViewController.m in Sources */,
 				D0B0F6001D87DCFD006BC29E /* ESLeftMenuOneViewController.m in Sources */,
 				D0B0F5ED1D87C7EC006BC29E /* JGContainerViewController.m in Sources */,
+				DC2DCCE81D8FAFBB00544E5E /* ESPayWaySelectCell.m in Sources */,
 				D0B0F6151D87DD35006BC29E /* ESOtherCardViewController.m in Sources */,
 				D0B0F6021D87DCFD006BC29E /* ESLeftMenuTwoViewController.m in Sources */,
 				D0B0F6111D87DD35006BC29E /* ESCardManagerViewController.m in Sources */,
 				D0B0F5CA1D87ACB0006BC29E /* VPTabbarViewController.m in Sources */,
 				D0B0F6171D87DD35006BC29E /* ESStoreViewController.m in Sources */,
 				D0B0F5AA1D87AC10006BC29E /* AppDelegate.m in Sources */,
+				DC2DCCEB1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m in Sources */,
 				D0B0F5A71D87AC10006BC29E /* main.m in Sources */,
+				DC2DCCE41D8FAF1800544E5E /* ESCardSelectViewCell.m in Sources */,
 				D0B0F6131D87DD35006BC29E /* ESCardPayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
