@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "VPTabbarViewController.h"
 #import "JGContainerViewController.h"
+#import "ESLoadingPageViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -24,6 +26,11 @@
     JGContainerViewController *containerVC = [JGContainerViewController sharedContainerManager];
     [containerVC setTabbarVC:tabbarVC];
     self.window.rootViewController = containerVC;
+//
+//    ESLoadingPageViewController *loadingVC = [[ESLoadingPageViewController alloc]init] ;
+//    self.window.rootViewController = loadingVC;
+    
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

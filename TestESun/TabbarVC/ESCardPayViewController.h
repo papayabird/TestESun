@@ -10,7 +10,6 @@
 
 @interface ESCardPayViewController : UIViewController
 
-- (IBAction)changeCurrentPage:(id)sender;
 
 
 

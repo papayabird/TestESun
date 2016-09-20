@@ -11,6 +11,12 @@
 #import "ESCardSelectViewCell.h"
 #import "ESPayWaySelectCell.h"
 #import "ESCardMemberBarCodeCell.h"
+#import "ZXMultiFormatWriter.h"
+#import "ZXImage.h"
+
+
+#import "ESShowCodeViewController.h"
+#import "ESCameraViewController.h"
 
 @interface ESCardPayViewController ()<UITableViewDelegate , UITableViewDataSource , UIScrollViewDelegate>{
     IBOutlet UITableViewCell *cardSelectViewCell;
@@ -19,14 +25,24 @@
     
     
     __weak IBOutlet UITableView *tableView;
+    
     __weak IBOutlet UIScrollView *cardScrollView;
     __weak IBOutlet UIPageControl *pageControl;
     
     
-    __weak IBOutlet UILabel *label;
+    
+    __weak IBOutlet UIButton *showCodeBtn;
+    
+    
+    
+    __weak IBOutlet UIImageView *barCodeImageView;
+   
 }
 
+- (IBAction)changeCurrentPage:(id)sender;
 
+- (IBAction)actionShowCode:(id)sender;
+- (IBAction)actionCamera:(id)sender;
 
 
 @end
@@ -40,8 +56,7 @@
     tableView.dataSource = self ;
     tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
  
-    
-    
+
     [pageControl setNumberOfPages:3];
     [pageControl setCurrentPage:0];
     
@@ -63,6 +78,29 @@
         cardImage.frame = frame ;
         [cardScrollView addSubview:cardImage] ;
     }
+    
+    
+    
+    
+    
+
+    // 產生 Barcode
+    NSError *error = nil;
+    ZXMultiFormatWriter *writer = [ZXMultiFormatWriter writer];
+    ZXBitMatrix *result = [writer encode:@"A000109"
+                                  format:kBarcodeFormatCode128
+                                   width:barCodeImageView.frame.size.width
+                                  height:barCodeImageView.frame.size.height
+                                   error:&error];
+    if (result) {
+        CGImageRef image = [[ZXImage imageWithMatrix:result] cgimage];
+        [barCodeImageView setImage:[UIImage imageWithCGImage:image]];
+        // This CGImageRef image can be placed in a UIImage, NSImage, or written to a file.
+    } else {
+        NSString *errorMessage = [error localizedDescription];
+        NSLog(@"barcode err: %@", errorMessage);
+    }
+    
 }
 
 - (IBAction)leftMenuAction:(id)sender
@@ -91,14 +129,6 @@
     
     
     if(indexPath.row == 0){
-        
-        
-        
-        
-        
-        
-        
-        
         cell = cardSelectViewCell ;
 
     }else if(indexPath.row == 1){
@@ -107,7 +137,6 @@
     
     }else if(indexPath.row == 2){
         cell = cardMemberBarCodeCell ;
-        label.text = @"asbdfja"  ;
     }
     
     
@@ -146,17 +175,6 @@
 }
 
 
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 - (IBAction)changeCurrentPage:(id)sender {
     NSInteger page = pageControl.currentPage;
     
@@ -166,5 +184,22 @@
     CGRect frame = CGRectMake(width*page, 0, width, height);
     
     [cardScrollView scrollRectToVisible:frame animated:YES];
+}
+
+- (IBAction)actionShowCode:(id)sender {
+    NSLog(@"actionShowCode") ;
+    
+    ESShowCodeViewController*showCodeViewController = [[ESShowCodeViewController alloc]init] ;
+    
+    [self.navigationController pushViewController:showCodeViewController animated:YES ] ;
+    
+    
+}
+
+- (IBAction)actionCamera:(id)sender {
+    ESCameraViewController* cameraViewController = [[ESCameraViewController alloc]init] ;
+    
+    [self.navigationController pushViewController:cameraViewController animated:YES ] ;
+
 }
 @end

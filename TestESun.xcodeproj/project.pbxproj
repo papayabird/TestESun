@@ -34,6 +34,16 @@
 		DC2DCCE41D8FAF1800544E5E /* ESCardSelectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCCE31D8FAF1800544E5E /* ESCardSelectViewCell.m */; };
 		DC2DCCE81D8FAFBB00544E5E /* ESPayWaySelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCCE71D8FAFBB00544E5E /* ESPayWaySelectCell.m */; };
 		DC2DCCEB1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCCEA1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m */; };
+		DC2DCD3E1D90CE7B00544E5E /* Loading.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DC2DCD3D1D90CE7B00544E5E /* Loading.bundle */; };
+		DC2DCD421D90CEAE00544E5E /* ESLoadingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCD401D90CEAE00544E5E /* ESLoadingPageViewController.m */; };
+		DC2DCD431D90CEAE00544E5E /* ESLoadingPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2DCD411D90CEAE00544E5E /* ESLoadingPageViewController.xib */; };
+		DC2DCD461D90DC2D00544E5E /* UIImageView+AnimationCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCD451D90DC2D00544E5E /* UIImageView+AnimationCompletion.m */; };
+		DC2DCD4D1D9106DD00544E5E /* ESShowCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCD4B1D9106DD00544E5E /* ESShowCodeViewController.m */; };
+		DC2DCD4E1D9106DD00544E5E /* ESShowCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2DCD4C1D9106DD00544E5E /* ESShowCodeViewController.xib */; };
+		DC2DCD531D9113D100544E5E /* ESBaeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCD511D9113D100544E5E /* ESBaeViewController.m */; };
+		DC2DCD541D9113D100544E5E /* ESBaeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2DCD521D9113D100544E5E /* ESBaeViewController.xib */; };
+		DC2DCD581D91149000544E5E /* ESCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCD561D91149000544E5E /* ESCameraViewController.m */; };
+		DC2DCD591D91149000544E5E /* ESCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2DCD571D91149000544E5E /* ESCameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +91,21 @@
 		DC2DCCE71D8FAFBB00544E5E /* ESPayWaySelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESPayWaySelectCell.m; sourceTree = "<group>"; };
 		DC2DCCE91D8FAFDC00544E5E /* ESCardMemberBarCodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCardMemberBarCodeCell.h; sourceTree = "<group>"; };
 		DC2DCCEA1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCardMemberBarCodeCell.m; sourceTree = "<group>"; };
+		DC2DCD3D1D90CE7B00544E5E /* Loading.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Loading.bundle; sourceTree = "<group>"; };
+		DC2DCD3F1D90CEAE00544E5E /* ESLoadingPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESLoadingPageViewController.h; sourceTree = "<group>"; };
+		DC2DCD401D90CEAE00544E5E /* ESLoadingPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESLoadingPageViewController.m; sourceTree = "<group>"; };
+		DC2DCD411D90CEAE00544E5E /* ESLoadingPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESLoadingPageViewController.xib; sourceTree = "<group>"; };
+		DC2DCD441D90DC2D00544E5E /* UIImageView+AnimationCompletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AnimationCompletion.h"; sourceTree = "<group>"; };
+		DC2DCD451D90DC2D00544E5E /* UIImageView+AnimationCompletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AnimationCompletion.m"; sourceTree = "<group>"; };
+		DC2DCD4A1D9106DD00544E5E /* ESShowCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESShowCodeViewController.h; sourceTree = "<group>"; };
+		DC2DCD4B1D9106DD00544E5E /* ESShowCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESShowCodeViewController.m; sourceTree = "<group>"; };
+		DC2DCD4C1D9106DD00544E5E /* ESShowCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESShowCodeViewController.xib; sourceTree = "<group>"; };
+		DC2DCD501D9113D100544E5E /* ESBaeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESBaeViewController.h; sourceTree = "<group>"; };
+		DC2DCD511D9113D100544E5E /* ESBaeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESBaeViewController.m; sourceTree = "<group>"; };
+		DC2DCD521D9113D100544E5E /* ESBaeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESBaeViewController.xib; sourceTree = "<group>"; };
+		DC2DCD551D91149000544E5E /* ESCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCameraViewController.h; sourceTree = "<group>"; };
+		DC2DCD561D91149000544E5E /* ESCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCameraViewController.m; sourceTree = "<group>"; };
+		DC2DCD571D91149000544E5E /* ESCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESCameraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +156,9 @@
 				D0B0F6041D87DD35006BC29E /* TabbarVC */,
 				DC2DCCE51D8FAF2C00544E5E /* View */,
 				DC2DCCDD1D8F935F00544E5E /* image */,
+				DC2DCD471D90DDD200544E5E /* test */,
 				D0B0F5B11D87AC10006BC29E /* Assets.xcassets */,
+				DC2DCD3D1D90CE7B00544E5E /* Loading.bundle */,
 				D0B0F5B31D87AC10006BC29E /* LaunchScreen.storyboard */,
 				D0B0F5B61D87AC10006BC29E /* Info.plist */,
 				D0B0F5A51D87AC10006BC29E /* Supporting Files */,
@@ -163,6 +190,7 @@
 		D0B0F6041D87DD35006BC29E /* TabbarVC */ = {
 			isa = PBXGroup;
 			children = (
+				DC2DCD491D9106BF00544E5E /* cardPayVC */,
 				D0B0F6051D87DD35006BC29E /* ESCardManagerViewController.h */,
 				D0B0F6061D87DD35006BC29E /* ESCardManagerViewController.m */,
 				D0B0F6071D87DD35006BC29E /* ESCardManagerViewController.xib */,
@@ -207,6 +235,34 @@
 				DC2DCCEA1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		DC2DCD471D90DDD200544E5E /* test */ = {
+			isa = PBXGroup;
+			children = (
+				DC2DCD501D9113D100544E5E /* ESBaeViewController.h */,
+				DC2DCD511D9113D100544E5E /* ESBaeViewController.m */,
+				DC2DCD521D9113D100544E5E /* ESBaeViewController.xib */,
+				DC2DCD441D90DC2D00544E5E /* UIImageView+AnimationCompletion.h */,
+				DC2DCD451D90DC2D00544E5E /* UIImageView+AnimationCompletion.m */,
+				DC2DCD3F1D90CEAE00544E5E /* ESLoadingPageViewController.h */,
+				DC2DCD401D90CEAE00544E5E /* ESLoadingPageViewController.m */,
+				DC2DCD411D90CEAE00544E5E /* ESLoadingPageViewController.xib */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		DC2DCD491D9106BF00544E5E /* cardPayVC */ = {
+			isa = PBXGroup;
+			children = (
+				DC2DCD4A1D9106DD00544E5E /* ESShowCodeViewController.h */,
+				DC2DCD4B1D9106DD00544E5E /* ESShowCodeViewController.m */,
+				DC2DCD4C1D9106DD00544E5E /* ESShowCodeViewController.xib */,
+				DC2DCD551D91149000544E5E /* ESCameraViewController.h */,
+				DC2DCD561D91149000544E5E /* ESCameraViewController.m */,
+				DC2DCD571D91149000544E5E /* ESCameraViewController.xib */,
+			);
+			name = cardPayVC;
 			sourceTree = "<group>";
 		};
 		FD8AF330280E52DDF29BAA28 /* Frameworks */ = {
@@ -278,18 +334,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC2DCD431D90CEAE00544E5E /* ESLoadingPageViewController.xib in Resources */,
 				D0B0F5EE1D87C7EC006BC29E /* JGContainerViewController.xib in Resources */,
 				D0B0F5E91D87C545006BC29E /* ESLeftMenuViewController.xib in Resources */,
+				DC2DCD3E1D90CE7B00544E5E /* Loading.bundle in Resources */,
 				D0B0F6141D87DD35006BC29E /* ESCardPayViewController.xib in Resources */,
 				D0B0F5B51D87AC10006BC29E /* LaunchScreen.storyboard in Resources */,
 				D0B0F5B21D87AC10006BC29E /* Assets.xcassets in Resources */,
+				DC2DCD541D9113D100544E5E /* ESBaeViewController.xib in Resources */,
 				DC2DCCE11D8F939F00544E5E /* card.png in Resources */,
 				D0B0F6121D87DD35006BC29E /* ESCardManagerViewController.xib in Resources */,
+				DC2DCD4E1D9106DD00544E5E /* ESShowCodeViewController.xib in Resources */,
 				D0B0F5C91D87ACB0006BC29E /* VPTabbarViewController.xib in Resources */,
 				D0B0F6181D87DD35006BC29E /* ESStoreViewController.xib in Resources */,
 				D0B0F6011D87DCFD006BC29E /* ESLeftMenuOneViewController.xib in Resources */,
 				D0B0F6031D87DCFD006BC29E /* ESLeftMenuTwoViewController.xib in Resources */,
 				D0B0F6161D87DD35006BC29E /* ESOtherCardViewController.xib in Resources */,
+				DC2DCD591D91149000544E5E /* ESCameraViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,10 +414,15 @@
 				D0B0F5ED1D87C7EC006BC29E /* JGContainerViewController.m in Sources */,
 				DC2DCCE81D8FAFBB00544E5E /* ESPayWaySelectCell.m in Sources */,
 				D0B0F6151D87DD35006BC29E /* ESOtherCardViewController.m in Sources */,
+				DC2DCD531D9113D100544E5E /* ESBaeViewController.m in Sources */,
 				D0B0F6021D87DCFD006BC29E /* ESLeftMenuTwoViewController.m in Sources */,
 				D0B0F6111D87DD35006BC29E /* ESCardManagerViewController.m in Sources */,
+				DC2DCD461D90DC2D00544E5E /* UIImageView+AnimationCompletion.m in Sources */,
+				DC2DCD421D90CEAE00544E5E /* ESLoadingPageViewController.m in Sources */,
 				D0B0F5CA1D87ACB0006BC29E /* VPTabbarViewController.m in Sources */,
+				DC2DCD4D1D9106DD00544E5E /* ESShowCodeViewController.m in Sources */,
 				D0B0F6171D87DD35006BC29E /* ESStoreViewController.m in Sources */,
+				DC2DCD581D91149000544E5E /* ESCameraViewController.m in Sources */,
 				D0B0F5AA1D87AC10006BC29E /* AppDelegate.m in Sources */,
 				DC2DCCEB1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m in Sources */,
 				D0B0F5A71D87AC10006BC29E /* main.m in Sources */,
