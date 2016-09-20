@@ -30,7 +30,6 @@
 		D0B0F6161D87DD35006BC29E /* ESOtherCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F60D1D87DD35006BC29E /* ESOtherCardViewController.xib */; };
 		D0B0F6171D87DD35006BC29E /* ESStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B0F60F1D87DD35006BC29E /* ESStoreViewController.m */; };
 		D0B0F6181D87DD35006BC29E /* ESStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0B0F6101D87DD35006BC29E /* ESStoreViewController.xib */; };
-		DC2DCCE11D8F939F00544E5E /* card.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2DCCE01D8F939F00544E5E /* card.png */; };
 		DC2DCCE41D8FAF1800544E5E /* ESCardSelectViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCCE31D8FAF1800544E5E /* ESCardSelectViewCell.m */; };
 		DC2DCCE81D8FAFBB00544E5E /* ESPayWaySelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCCE71D8FAFBB00544E5E /* ESPayWaySelectCell.m */; };
 		DC2DCCEB1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2DCCEA1D8FAFDC00544E5E /* ESCardMemberBarCodeCell.m */; };
@@ -84,7 +83,6 @@
 		D0B0F60E1D87DD35006BC29E /* ESStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESStoreViewController.h; sourceTree = "<group>"; };
 		D0B0F60F1D87DD35006BC29E /* ESStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESStoreViewController.m; sourceTree = "<group>"; };
 		D0B0F6101D87DD35006BC29E /* ESStoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESStoreViewController.xib; sourceTree = "<group>"; };
-		DC2DCCE01D8F939F00544E5E /* card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card.png; sourceTree = "<group>"; };
 		DC2DCCE21D8FAF1800544E5E /* ESCardSelectViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESCardSelectViewCell.h; sourceTree = "<group>"; };
 		DC2DCCE31D8FAF1800544E5E /* ESCardSelectViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESCardSelectViewCell.m; sourceTree = "<group>"; };
 		DC2DCCE61D8FAFBB00544E5E /* ESPayWaySelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPayWaySelectCell.h; sourceTree = "<group>"; };
@@ -154,8 +152,6 @@
 				D0B0F5C61D87ACB0006BC29E /* VPTabbarViewController.xib */,
 				D0B0F5F91D87DCFD006BC29E /* LeftMenuVC */,
 				D0B0F6041D87DD35006BC29E /* TabbarVC */,
-				DC2DCCE51D8FAF2C00544E5E /* View */,
-				DC2DCCDD1D8F935F00544E5E /* image */,
 				DC2DCD471D90DDD200544E5E /* test */,
 				D0B0F5B11D87AC10006BC29E /* Assets.xcassets */,
 				DC2DCD3D1D90CE7B00544E5E /* Loading.bundle */,
@@ -216,14 +212,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		DC2DCCDD1D8F935F00544E5E /* image */ = {
-			isa = PBXGroup;
-			children = (
-				DC2DCCE01D8F939F00544E5E /* card.png */,
-			);
-			name = image;
-			sourceTree = "<group>";
-		};
 		DC2DCCE51D8FAF2C00544E5E /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +228,7 @@
 		DC2DCD471D90DDD200544E5E /* test */ = {
 			isa = PBXGroup;
 			children = (
+				DC2DCCE51D8FAF2C00544E5E /* View */,
 				DC2DCD501D9113D100544E5E /* ESBaeViewController.h */,
 				DC2DCD511D9113D100544E5E /* ESBaeViewController.m */,
 				DC2DCD521D9113D100544E5E /* ESBaeViewController.xib */,
@@ -342,7 +331,6 @@
 				D0B0F5B51D87AC10006BC29E /* LaunchScreen.storyboard in Resources */,
 				D0B0F5B21D87AC10006BC29E /* Assets.xcassets in Resources */,
 				DC2DCD541D9113D100544E5E /* ESBaeViewController.xib in Resources */,
-				DC2DCCE11D8F939F00544E5E /* card.png in Resources */,
 				D0B0F6121D87DD35006BC29E /* ESCardManagerViewController.xib in Resources */,
 				DC2DCD4E1D9106DD00544E5E /* ESShowCodeViewController.xib in Resources */,
 				D0B0F5C91D87ACB0006BC29E /* VPTabbarViewController.xib in Resources */,
